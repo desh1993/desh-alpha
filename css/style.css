@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+h1{
+  color: red;
+}
+html,body{
+  font-family: 'Poiret One', cursive;
+  font-size: 25px;
+  line-height: 30px;
+  color: #555;
+  overflow: hidden;
+  text-rendering: optimizeLegibility;
+}
+header.content{
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url('../images/landingpage.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/landingpage.jpg');
+  height: 100vh;
+  background-size: cover;
+}
+.container{
+  text-align: center;
+  -webkit-transform: translateY(300px);
+          transform: translateY(300px);
+}
+.col-12 , .col-sm-12{
+  margin-bottom: 25px;
+}
+
+strong{
+  font-family: Montserrat,sans-serif;
+  font-weight: bold;
+  font-size:35px;
+  text-transform: capitalize;
+
+}
+#mc_embed_signup{
+  text-align: center;
+
+}
+
+input[type=submit]{
+  -webkit-transform: translateY(210px);
+          transform: translateY(210px);
+          background-color: #FFFF00;
+          border: 0;
+          padding: 1%;
+          color: #060606;
+          -webkit-transition: -webkit-transform 1s;
+          transition: -webkit-transform 1s;
+          border-radius: 60px;
+          font-weight: bold;
+
+}
+
+input[type=submit]:hover{
+  background-color: #CE0000;
+  color: #fff;
+
+}
+.col-12 a ,
+.col-sm-12 a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn-danger{
+  padding: 1.5%;
+ -webkit-transition: color 1s;
+ transition: color 1s;
+  border: 0;
+}
+.btn-danger:hover{
+  cursor: pointer;
+  background-color: #e67e22;
+  color: #fff;
+
+}
